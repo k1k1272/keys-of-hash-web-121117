@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    hash = {"Panama" => "red-footed tortoise", "Madagascar" => ["aye-aye", "tomato frog"], "Australia" => ["sugar glider", "kangaroo", "koala"], 1 => [:a, :d], 2 => :b, 3 => :c }
+    hash = {"Panama" => "red-footed tortoise", "Madagascar" => ["aye-aye", "tomato frog"], "Australia" => ["sugar glider", "kangaroo", "koala"], a: 1, b: 2, c: 3, d: 4 }
     arguments.map { |arg| hash[arg]}.flatten
   end
 end

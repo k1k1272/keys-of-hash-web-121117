@@ -25,7 +25,7 @@ describe 'keys_of' do
   end
 
   it 'returns the keys of the entered value' do
-    result = {a: 1, b: 2, c: 3}.keys_of(1)
+    result = {a: 1, b: 2, c: 3, d: 1}.keys_of(1)
     expect(result).to include(:a)
     expect(result.length).to eq(1)
   end
